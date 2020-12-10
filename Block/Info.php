@@ -37,5 +37,6 @@ class Info extends ConfigurableInfo
                 return implode('; ', $value);
         }
         return parent::getValueView($field, $value);
+        //
     }
 }
